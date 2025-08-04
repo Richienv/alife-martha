@@ -8,10 +8,8 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { RainbowButton } from "@/components/ui/rainbow-button";
-import Particles from "@/components/ui/particles";
 import RetroGrid from "@/components/ui/retro-grid";
 import ShineBorder from "@/components/ui/shine-border";
-import AvatarCircles from "@/components/avatar-circles";
 
 
 const ease = [0.16, 1, 0.3, 1];
@@ -154,12 +152,6 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 w-full h-full">
         <RetroGrid className="absolute top-0 left-0 right-0 bottom-0 w-full h-full" />
       </div>
-      <Particles
-        className="absolute inset-0 -z-10"
-        quantity={300}
-        staticity={20}
-        color="#8b5cf6"
-      />
       <div className="relative py-8 sm:py-12 md:py-16 w-full">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex w-full flex-col items-center justify-start">

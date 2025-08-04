@@ -16,7 +16,11 @@
       "Bash(ls:*)",
       "Bash(npm run lint)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(nvm:*)",
+      "Bash(git remote set-url:*)"
     ],
     "deny": []
   }
